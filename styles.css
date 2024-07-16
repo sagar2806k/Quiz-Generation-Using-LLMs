@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* General settings for body and font */
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Light red gradient */
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Darker text color for better contrast */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4b4b4b; /* Dark grey color for headings */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold font for headings */
+    text-align: center; /* Center-align headings */
+}
+
+.stTextArea, .stNumberInput, .stSelectbox, .stTextInput input {
+    background-color: #e3f2fd; /* Light red background for input fields */
+    border: 1px solid #90caf9; /* Light red border for input fields */
+    border-radius: 8px; /* Rounded corners for input fields */
+    font-family: 'Roboto', sans-serif;
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 10px; /* Space between input fields */
+}
+
+.stButton button {
+    background-color: #42a5f5; /* Medium red button color */
+    color: white; /* White text color for buttons */
+    border: none; /* No border for buttons */
+    border-radius: 8px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding inside buttons */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Larger font size for buttons */
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin: 10px 0; /* Space above and below buttons */
+}
+
+.stButton button:hover {
+    background-color: #1e88e5; /* Darker red button color on hover */
+}
+
+.stRadio, .stRadio > div {
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Darker text color for better contrast */
+    margin-bottom: 10px; /* Space between radio buttons */
+}
+
+.stMarkdown p {
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Darker text color for better contrast */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+/* Additional styling for text area */
+textarea {
+    resize: vertical; /* Allow vertical resizing of text areas */
+}
+
+/* Styling for quiz question container */
+.quiz-container {
+    background: #ffffff; /* White background for quiz container */
+    border-radius: 10px; /* Rounded corners for quiz container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for quiz container */
+    padding: 20px; /* Padding inside quiz container */
+    margin: 20px 0; /* Space above and below quiz container */
+}
+
+/* Styling for quiz question text */
+.quiz-question {
+    font-weight: 600; /* Semi-bold font for quiz questions */
+    color: #2e3b4e; /* Dark red color for quiz questions */
+}
+
+/* Styling for quiz options */
+.quiz-options {
+    margin: 15px 0; /* Space above and below quiz options */
+}
+
+.quiz-options label {
+    background: #e3f2fd; /* Light red background for options */
+    border-radius: 5px; /* Rounded corners for options */
+    padding: 10px; /* Padding inside options */
+    display: block; /* Block display for options */
+    cursor: pointer; /* Pointer cursor for options */
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+    margin-bottom: 5px; /* Space between options */
+}
+
+.quiz-options label:hover {
+    background: #bbdefb; /* Lighter red background on hover */
+}
