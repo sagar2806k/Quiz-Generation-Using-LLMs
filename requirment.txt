@@ -8,3 +8,5 @@ langchain
 streamlit
 pandas
 PyPDF2
+langchain-groq
+pydantic==1.10.13
